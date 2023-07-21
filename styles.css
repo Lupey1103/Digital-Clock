@@ -1,0 +1,37 @@
+body {
+    background: black;
+}
+
+.outer-clock {
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    background: #333;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#clock-time,
+.ampm {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.clock-time {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
